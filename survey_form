@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <div class="container"> 
+  <form id="survey-form">
+  <h1 id="title">Phyl-arhedo Family Survey</h1>
+  <p id="description">Choose your favorite Arhedo</p>
+    <div>
+      <label class="label" for="name" id="name-label">Name</label><br>
+    <input id="name" type="text" placeholder="Enter your name" required>
+    </div>
+<div>
+  <label class="label" for="email" id="email-label">Email
+    </label><br> 
+    <input id="email" type="email" placeholder="Enter your email" required>
+    </div>
+    <div>
+      <label for="age" class="label" id="number-label">Age(optional)</label><br>
+    <input id="number" type="number" placeholder="Age" min="17" max="40">
+    </div>
+    <div>
+      <label class="label" id="details">Who's your favorite Arhedo</label ><br>
+<select name="auto" id="dropdown">
+  <option value="none">Pick one</option>
+  <option value="Ono">Ono</option>
+  <option value="Ese">Ese</option>
+<option value="Efua">Efua</option>
+</select>
+<div>
+  <span class="label" id="vain">Reasons you like Efua</span>
+    <div id="A-C">
+      <label for="looks">He is the finest</label>
+  <input type="radio" id="looks" name="Efua" value="fine" checked><br
+      <label for="smartest">He is the smartest</label>
+       <input type="radio" id="smartest" name="Efua" value="smart"><br>
+      <label for="traits">He is the most talented</label>
+       <input type="radio" id="traits" name="Efua" value="talent">
+    </div>
+ </div>
+<div>
+      <label class="label" id="details">What do you like about the family</label ><br>
+<select name="auto" id="dropdown">
+  <option>Pick one</option>
+  <option value="looks">Looks</option>
+  <option value="brains">Brains</option>
+<option value="traits">Traits</option>
+</select>
+</div>
+<div>
+  <span class="label" id="ABC">What is your relationship with the Arhedos?</span></div>
+  <div id="A-G">
+  <label for="a"> Friend</label>
+  <input type="checkbox" value="A" id="a" name="Arhedo"><br>
+  <label for="b"> Family</label>
+  <input type="checkbox" value="B" id="b" name="Arhedo"><br>
+  <label for="c"> Workmate</label>
+  <input type="checkbox" value="C"id="c" name="Arhedo"><br>
+  <label for="d"> Coursemate</label>
+  <input type="checkbox" value="D"id="d" name="Arhedo"><br>
+  <label for="e"> Former classmate</label>
+  <input type="checkbox" value="E"id="e" name="Arhedo"><br>
+  <label for="f"> Schoolmate</label>
+  <input type="checkbox" value="F"id="f" name="Arhedo"><br>
+  <label for="g"> Pastor</label>
+  <input type="checkbox" value="G"id="g" name="Arhedo">
+</div>
+<div class="comment">
+  <textarea placeholder="How'd I do?" name="text" required ></textarea>
+</div>
+<button type="submit" id="submit" name="submit">Submit</button>
+</div>
+    </form> 
+    </body>
+  </html>
