@@ -1,0 +1,87 @@
+body{
+  color: white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, rgb(47, 47, 157), #e9b6fd);
+  font-family: monospace;
+}
+h1{
+  font-size: 40px;
+}
+p{
+  font-size: 20px
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+background: linear-gradient(135deg, rgb(109, 127, 206), rgb(174, 65, 174));
+padding: 30px; 
+border-radius: 25px;
+
+}
+#name{
+  height: 30px;
+  width:600px;
+  border-radius: 5px;
+  margin: 10px;
+  border: none;
+  padding: 17px;
+  font-size: 17px;
+}
+#email{
+  height: 30px;
+  width:600px;
+  border-radius: 5px;
+  margin: 10px;
+  border: none;
+  padding: 17px;
+  font-size: 17px;
+}
+#number{
+  height: 30px;
+  width:600px;
+  border-radius: 5px;
+  margin: 10px;
+  border: none;
+  padding: 17px;
+  font-size: 17px;
+}
+#dropdown{
+  height: 30px;
+  width:600px;
+  border-radius: 5px;
+  margin: 10px;
+  border: none;
+}
+textarea{
+  width: 600px;
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  
+  font-size: 17px;
+}
+.label{
+  margin: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+button{
+  background: rgb(47, 162, 91);
+  color:white;
+  width: 600px;
+  height: 30px;
+  border: none;  
+  font-size: 17px;
+}
+#A-G{
+  font-size: 17px;
+  margin: 10px;
+}
+#A-C{
+  font-size: 17px;
+  margin: 10px;
+}
